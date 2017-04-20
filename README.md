@@ -3,7 +3,7 @@
 ### 更正Installation
 ##### 步骤 1：npm install git+https://github.com/aqnaruto/react-native-orientation.git --save  
 ##### 步骤 2：react-native link react-native-orientation
-ps ：安卓引入原生组件会多次引用jar包。解决办法是将build.grade中的compile 改成provided。如果依旧报，进入android目录下 gradlew clean一下。亲测可用。
+ps ：安卓引入原生组件会多次引用jar包。解决办法是将build.grade中的compile 改成provided。如果依旧报错，进入android目录下 gradlew clean一下。亲测可用。
 ## react-native-orientation
 Listen to device orientation changes in react-native and set preferred orientation on screen to screen basis.
 
