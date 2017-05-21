@@ -1,7 +1,7 @@
 >因为这个
-作者不在维护这个项目，所以fork了这个项目。此项目最新版本在git上，npm会报错。
+作者不在维护这个项目，所以fork了这个项目。此项目最新版本在git上，npm会报错。（更新，有别人重新给作者维护项目了）
 ### 更正Installation
-##### 步骤 1：npm install git+https://github.com/aqnaruto/react-native-orientation.git --save  
+##### 步骤 1：npm install git+https://github.com/yamill/react-native-orientation.git --save  
 ##### 步骤 2：react-native link react-native-orientation
 ps ：安卓引入原生组件会多次引用jar包。解决办法是将build.grade中的compile 改成provided。如果依旧报错，进入android目录下 gradlew clean一下。亲测可用。
 ## react-native-orientation
